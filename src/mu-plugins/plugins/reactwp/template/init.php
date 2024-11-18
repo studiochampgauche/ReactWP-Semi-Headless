@@ -291,13 +291,13 @@ class ReactWP{
             /*
             * Add Main Style
             */
-            //wp_enqueue_style('rwp-main', get_template_directory_uri() . '/assets/css/main.min.css', null, null, null);
+            //wp_enqueue_style('rwp-main', get_stylesheet_directory_uri() . '/assets/css/main.min.css', null, null, null);
 
 
             /*
             * Add Main Javascript
             */
-            wp_enqueue_script('rwp-main', get_template_directory_uri() . '/assets/js/main.min.js', null, null, true);
+            wp_enqueue_script('rwp-main', get_stylesheet_directory_uri() . '/assets/js/main.min.js', null, null, true);
 
 
 
