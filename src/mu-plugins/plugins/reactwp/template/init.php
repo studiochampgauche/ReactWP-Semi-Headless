@@ -738,7 +738,7 @@ class ReactWP{
             
             echo '
                 <style type="text/css">
-                    '. file_get_contents(get_template_directory_uri() . '/assets/css/main.min.css') .'
+                    '. file_get_contents(get_stylesheet_directory_uri() . '/assets/css/main.min.css') .'
                 </style>
             ';
 
