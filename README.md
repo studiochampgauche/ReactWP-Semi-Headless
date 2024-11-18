@@ -1,7 +1,7 @@
 ![ReactWP](https://reactwp.com/github-image/banner-black.jpg)
 
 > [!NOTE]
-> We have remove our docs. It'll be back soon.
+> This repo is similar to the original ReactWP except that React is included per theme instead of having a detached front-end. It's allow us to do Multisites.
 
 ## Requirements
 - ACF Pro License
