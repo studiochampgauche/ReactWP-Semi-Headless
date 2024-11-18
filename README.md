@@ -1,7 +1,7 @@
 ![ReactWP](https://reactwp.com/github-image/banner-black.jpg)
 
 > [!NOTE]
-> This repo is similar to the [original ReactWP](https://github.com/studiochampgauche/ReactWP) except that React is included per theme instead of having a detached front-end. It's allow us to do Multisites.
+> This repo is similar to the [original ReactWP](https://github.com/studiochampgauche/ReactWP) except that React is included per theme instead of having a single detached front-end for all themes. It's allow us to do Multisites.
 
 ## Requirements
 - ACF Pro License
