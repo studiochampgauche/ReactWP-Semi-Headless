@@ -313,10 +313,10 @@ class ReactWP{
                 'consentActive' => (self::field('consent_module') ? true : false),
                 'consentVersion' => (self::field('consent_configs_version') ? self::field('consent_configs_version') : 0),
                 'consentExpiration' => (self::field('consent_configs_expiration') ? self::field('consent_configs_expiration') : 0),
-                'baseUrl' => str_replace(['/admin/', '/admin'], '/', $siteUrl),
-                'adminUrl' => rtrim($siteUrl, '/') . '/',
-                'ajaxPath' => '/admin/wp-admin/admin-ajax.php',
-                'restPath' => '/admin/wp-json/'
+                'baseUrl' => $siteUrl,
+                'adminUrl' => $siteUrl . '/wp-admin',
+                'ajaxPath' => '/wp-admin/admin-ajax.php',
+                'restPath' => '/wp-json'
             ]);
 
 
